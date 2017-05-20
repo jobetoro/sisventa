@@ -2,6 +2,7 @@
 class Modelo extends CI_Model{
     function  validarempresario($rut,$contraseña){
         $ver="";
+		$ver2="hola mundo";
         $this->db->select("*");
         $estado="activo";
         $this->db->where('rut_empresa',$rut);
